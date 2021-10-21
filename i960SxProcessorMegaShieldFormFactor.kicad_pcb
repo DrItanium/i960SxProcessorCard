@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 10)
-    (tracks 963)
+    (tracks 966)
     (zones 0)
     (modules 44)
     (nets 130)
@@ -2663,6 +2663,9 @@
   (segment (start 178.277612 78.40726) (end 176.85078 78.40726) (width 0.25) (layer Back) (net 1))
   (segment (start 180.581669 88.015089) (end 180.581669 80.711317) (width 0.25) (layer Back) (net 1))
   (segment (start 180.581669 80.711317) (end 178.277612 78.40726) (width 0.25) (layer Back) (net 1))
+  (via (at 120.16232 118.93296) (size 0.8) (drill 0.4) (layers Front Back) (net 1))
+  (segment (start 120.2055 118.97614) (end 120.16232 118.93296) (width 0.25) (layer Front) (net 1))
+  (segment (start 122.35156 118.97614) (end 120.2055 118.97614) (width 0.25) (layer Front) (net 1))
   (segment (start 186.59212 90.2786) (end 186.15078 89.83726) (width 0.25) (layer Back) (net 2))
   (segment (start 186.59212 91.95054) (end 186.59212 90.2786) (width 0.25) (layer Back) (net 2))
   (segment (start 186.58704 77.96338) (end 186.14062 78.4098) (width 0.25) (layer Front) (net 2))
