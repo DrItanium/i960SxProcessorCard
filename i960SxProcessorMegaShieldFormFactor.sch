@@ -940,7 +940,6 @@ F 3 "~" H 15600 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 13750 1200
-NoConn ~ 15250 1250
 Wire Wire Line
 	15000 1550 15700 1550
 Wire Wire Line
@@ -1106,8 +1105,6 @@ Wire Wire Line
 	15100 1450 15000 1450
 Wire Wire Line
 	15100 2150 15100 1450
-Wire Wire Line
-	15250 1250 15000 1250
 Connection ~ 14100 1950
 Wire Wire Line
 	14200 1950 14100 1950
@@ -1933,4 +1930,8 @@ Wire Wire Line
 	14400 7800 15150 7800
 Text Label 15150 7800 2    50   ~ 0
 CLK_DIV2
+Wire Wire Line
+	15000 1250 15700 1250
+Text Label 15700 1250 2    50   ~ 0
+~READY
 $EndSCHEMATC
