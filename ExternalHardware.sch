@@ -593,4 +593,10 @@ NoConn ~ 10450 2500
 NoConn ~ 9450 2500
 NoConn ~ 1950 1700
 NoConn ~ 2950 1700
+Text Label 4850 2850 0    50   ~ 0
+CLKSRC0
+Wire Wire Line
+	4850 2850 5550 2850
+Text HLabel 5550 2850 2    50   Output ~ 0
+CLKDIV2
 $EndSCHEMATC
