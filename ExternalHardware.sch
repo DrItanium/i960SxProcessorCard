@@ -20,7 +20,7 @@ Wire Wire Line
 Wire Notes Line
 	4400 500  4400 2350
 Wire Wire Line
-	2150 7350 2700 7350
+	2150 7150 2700 7150
 Text Notes 800  6700 0    118  ~ 0
 ~READY~ Signal Synchronizer
 Wire Notes Line
@@ -46,17 +46,17 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3000 7250 50  0001 C CNN
 $EndComp
 $Comp
 L 74xx:74LS04 U?
-U 4 1 6CB975D6
+U 3 1 6CB975D6
 P 3800 7250
 AR Path="/60861C6D/6CB975D6" Ref="U?"  Part="4" 
 AR Path="/6CB975D6" Ref="U?"  Part="4" 
 AR Path="/6CB8E383/6CB975D6" Ref="U?"  Part="4" 
-AR Path="/62305776/6CB975D6" Ref="U6"  Part="4" 
+AR Path="/62305776/6CB975D6" Ref="U6"  Part="3" 
 F 0 "U6" H 3800 7567 50  0000 C CNN
 F 1 "74AHC04" H 3800 7476 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3800 7250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3800 7250 50  0001 C CNN
-	4    3800 7250
+	3    3800 7250
 	1    0    0    -1  
 $EndComp
 Text Label 700  7150 0    51   ~ 0
@@ -66,7 +66,7 @@ Z1
 Wire Wire Line
 	700  7150 1550 7150
 Wire Wire Line
-	2150 7150 2700 7150
+	2150 7350 2700 7350
 Wire Wire Line
 	550  1800 1050 1800
 Text Label 550  1800 0    50   ~ 0
@@ -113,46 +113,46 @@ Text Notes 700  4650 0    118  ~ 0
 Bootup FAIL Detect Circuit
 $Comp
 L 74xx:74LS04 U?
-U 6 1 6CB975FD
+U 1 1 6CB975FD
 P 1350 1800
 AR Path="/6CB975FD" Ref="U?"  Part="6" 
 AR Path="/6CB8E383/6CB975FD" Ref="U?"  Part="6" 
-AR Path="/62305776/6CB975FD" Ref="U6"  Part="6" 
+AR Path="/62305776/6CB975FD" Ref="U6"  Part="1" 
 F 0 "U6" H 1350 2117 50  0000 C CNN
 F 1 "74AHC04" H 1350 2026 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1350 1800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 1350 1800 50  0001 C CNN
-	6    1350 1800
+	1    1350 1800
 	1    0    0    -1  
 $EndComp
 Text Label 3400 1800 2    50   ~ 0
 CLKSRC0
 $Comp
 L 74xx:74LS04 U?
-U 2 1 6CB97620
+U 4 1 6CB97620
 P 2400 5050
 AR Path="/6CB97620" Ref="U?"  Part="2" 
 AR Path="/6CB8E383/6CB97620" Ref="U?"  Part="2" 
-AR Path="/62305776/6CB97620" Ref="U6"  Part="2" 
+AR Path="/62305776/6CB97620" Ref="U6"  Part="4" 
 F 0 "U6" H 2400 5367 50  0000 C CNN
 F 1 "74AHC04" H 2400 5276 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2400 5050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2400 5050 50  0001 C CNN
-	2    2400 5050
+	4    2400 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS04 U?
-U 1 1 6CB97626
+U 2 1 6CB97626
 P 1850 7150
 AR Path="/6CB97626" Ref="U?"  Part="1" 
 AR Path="/6CB8E383/6CB97626" Ref="U?"  Part="1" 
-AR Path="/62305776/6CB97626" Ref="U6"  Part="1" 
+AR Path="/62305776/6CB97626" Ref="U6"  Part="2" 
 F 0 "U6" H 1850 7467 50  0000 C CNN
 F 1 "74AHC04" H 1850 7376 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1850 7150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 1850 7150 50  0001 C CNN
-	1    1850 7150
+	2    1850 7150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -420,40 +420,34 @@ F 3 "" H 9950 3400 50  0001 C CNN
 $EndComp
 Connection ~ 9950 3400
 Wire Wire Line
-	9450 2000 8450 2000
+	9450 2200 8450 2200
 Wire Wire Line
-	10450 2000 10900 2000
+	10450 2200 10900 2200
 Wire Wire Line
-	10450 2100 10900 2100
-NoConn ~ 10450 2400
-NoConn ~ 9450 2400
+	10450 2400 10900 2400
 Wire Wire Line
-	9450 2100 8450 2100
+	9450 2400 8450 2400
 Wire Wire Line
 	9450 2900 8750 2900
-Text Label 10900 2000 2    51   ~ 0
+Text Label 10900 2200 2    51   ~ 0
 Z0
-Text Label 8450 2100 0    51   ~ 0
+Text Label 8450 2400 0    51   ~ 0
 Z0
-Text Label 10900 2100 2    51   ~ 0
+Text Label 10900 2400 2    51   ~ 0
 Z1
 Text Label 8750 2900 0    50   ~ 0
 ~MR0
-NoConn ~ 9450 2300
-NoConn ~ 10450 2300
-NoConn ~ 9450 2500
-NoConn ~ 10450 2500
 Wire Wire Line
-	10900 2200 10450 2200
+	10900 2300 10450 2300
 Wire Wire Line
-	9450 2200 8450 2200
-Text Label 8450 2200 0    50   ~ 0
+	9450 2300 8450 2300
+Text Label 8450 2300 0    50   ~ 0
 FAIL_SYNC
 Text HLabel 5100 7250 2    50   Output ~ 0
 ~READY960
-Text HLabel 10900 2200 2    50   Output ~ 0
+Text HLabel 10900 2300 2    50   Output ~ 0
 MCU_FAIL
-Text HLabel 8450 2000 0    51   Input ~ 0
+Text HLabel 8450 2200 0    51   Input ~ 0
 ~READY
 Text Label 8750 2700 0    51   ~ 0
 CLKSRC0
@@ -580,9 +574,7 @@ NoConn ~ 2950 2000
 Text Label 1250 2400 0    50   ~ 0
 ~MR1
 NoConn ~ 1950 1600
-NoConn ~ 1950 1700
 NoConn ~ 2950 1600
-NoConn ~ 2950 1700
 Wire Wire Line
 	1650 1800 1950 1800
 Text HLabel 1300 5050 0    50   Input ~ 0
@@ -593,4 +585,12 @@ Text HLabel 1300 5850 0    50   Input ~ 0
 ~BE0
 NoConn ~ 2950 1500
 NoConn ~ 1950 1500
+NoConn ~ 9450 2000
+NoConn ~ 9450 2100
+NoConn ~ 10450 2000
+NoConn ~ 10450 2100
+NoConn ~ 10450 2500
+NoConn ~ 9450 2500
+NoConn ~ 1950 1700
+NoConn ~ 2950 1700
 $EndSCHEMATC
