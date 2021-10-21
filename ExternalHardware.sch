@@ -68,8 +68,8 @@ Wire Wire Line
 Wire Wire Line
 	2150 7150 2700 7150
 Wire Wire Line
-	550  1500 1050 1500
-Text Label 550  1500 0    50   ~ 0
+	550  1800 1050 1800
+Text Label 550  1800 0    50   ~ 0
 CLKSRC0
 Text Notes 3250 4150 0    118  ~ 0
 Clock Divider (20MHz -> 10MHz)
@@ -114,18 +114,18 @@ Bootup FAIL Detect Circuit
 $Comp
 L 74xx:74LS04 U?
 U 6 1 6CB975FD
-P 1350 1500
+P 1350 1800
 AR Path="/6CB975FD" Ref="U?"  Part="6" 
 AR Path="/6CB8E383/6CB975FD" Ref="U?"  Part="6" 
 AR Path="/62305776/6CB975FD" Ref="U6"  Part="6" 
-F 0 "U6" H 1350 1817 50  0000 C CNN
-F 1 "74AHC04" H 1350 1726 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1350 1500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 1350 1500 50  0001 C CNN
-	6    1350 1500
+F 0 "U6" H 1350 2117 50  0000 C CNN
+F 1 "74AHC04" H 1350 2026 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1350 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 1350 1800 50  0001 C CNN
+	6    1350 1800
 	1    0    0    -1  
 $EndComp
-Text Label 3400 1500 2    50   ~ 0
+Text Label 3400 1800 2    50   ~ 0
 CLKSRC0
 $Comp
 L 74xx:74LS04 U?
@@ -570,13 +570,11 @@ F 3 "" H 2450 2900 50  0001 C CNN
 $EndComp
 Connection ~ 2450 2900
 Wire Wire Line
-	2950 1500 3400 1500
+	2950 1800 3400 1800
 NoConn ~ 2950 1900
 NoConn ~ 1950 1900
 Wire Wire Line
 	1950 2400 1250 2400
-NoConn ~ 1950 1800
-NoConn ~ 2950 1800
 NoConn ~ 1950 2000
 NoConn ~ 2950 2000
 Text Label 1250 2400 0    50   ~ 0
@@ -586,11 +584,13 @@ NoConn ~ 1950 1700
 NoConn ~ 2950 1600
 NoConn ~ 2950 1700
 Wire Wire Line
-	1650 1500 1950 1500
+	1650 1800 1950 1800
 Text HLabel 1300 5050 0    50   Input ~ 0
 ~BLAST~\~FAIL~
 Text HLabel 1300 5650 0    50   Input ~ 0
 ~BE1
 Text HLabel 1300 5850 0    50   Input ~ 0
 ~BE0
+NoConn ~ 2950 1500
+NoConn ~ 1950 1500
 $EndSCHEMATC
