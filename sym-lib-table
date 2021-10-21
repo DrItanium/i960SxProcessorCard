@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name i960SxSimpleBreakoutBoardWithLatchingHardware-rescue)(type Legacy)(uri /home/jwscoggins/kicad/projects/i960SxBreakoutWithLatchingHardware/i960SxSimpleBreakoutBoardWithLatchingHardware-rescue.lib)(options "")(descr ""))
   (lib (name i960SxProcessorMegaShieldFormFactor-rescue)(type Legacy)(uri ${KIPRJMOD}/i960SxProcessorMegaShieldFormFactor-rescue.lib)(options "")(descr ""))
 )
