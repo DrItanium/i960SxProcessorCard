@@ -630,6 +630,7 @@
     )
   )
 
+
   (junction (at 182.88 85.09) (diameter 0) (color 0 0 0 0)
     (uuid 127d9b68-b273-42e2-8ce3-5ce31c25a9d5)
   )
@@ -1036,7 +1037,7 @@
     (property "Value" "0.1uF" (id 1) (at 268.351 77.343 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" (id 2) (at 266.3952 80.01 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 266.3952 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 265.43 76.2 0)
