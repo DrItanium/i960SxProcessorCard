@@ -1706,7 +1706,6 @@
     )
   )
 
-
   (junction (at 259.08 107.95) (diameter 0) (color 0 0 0 0)
     (uuid 03d0ff35-6acc-401f-b525-25faac830e07)
   )
@@ -3031,10 +3030,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ce87fa92-5c4c-48ac-9cf7-b56c2248f186)
   )
-  (wire (pts (xy 323.85 205.74) (xy 342.9 205.74))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid ce956abe-25a1-4676-a69d-085aae696a3f)
-  )
   (wire (pts (xy 63.5 82.55) (xy 93.98 82.55))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid cf0078c8-5e88-43fa-8874-7b5af428abad)
@@ -3260,10 +3255,6 @@
   (wire (pts (xy 93.98 90.17) (xy 63.5 90.17))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fd4ee5c5-a965-40bd-ae10-983b2475e989)
-  )
-  (wire (pts (xy 365.76 200.66) (xy 384.81 200.66))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid fd549643-fdc9-43e4-b8c6-bbb8258a4c72)
   )
   (wire (pts (xy 204.47 76.2) (xy 229.87 76.2))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -3662,14 +3653,6 @@
   (label "A18" (at 63.5 77.47 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7575f500-230a-4a14-a431-33ef2b076d8b)
-  )
-  (label "W\\~{R}" (at 323.85 205.74 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 766424ca-d628-4433-bf3a-0e1f0420656c)
-  )
-  (label "AD0" (at 384.81 200.66 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 76dc4d4a-dfb4-4f52-94f9-3e9c7a8b6c1f)
   )
   (label "~{BE0}" (at 323.85 203.2 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -5500,14 +5483,14 @@
     (pin "1" (uuid 997634f7-b54a-4605-8306-463311c707b0))
   )
 
-  (sheet (at 342.9 190.5) (size 22.86 20.32) (fields_autoplaced)
+  (sheet (at 342.9 190.5) (size 22.86 15.24) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-000062305776)
     (property "Sheet name" "Sheet62305775" (id 0) (at 342.9 189.7884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "ExternalHardware.kicad_sch" (id 1) (at 342.9 211.4046 0)
+    (property "Sheet file" "ExternalHardware.kicad_sch" (id 1) (at 342.9 206.3246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "~{READY960}" output (at 365.76 193.04 0)
@@ -5541,14 +5524,6 @@
     (pin "CLKDIV2" output (at 365.76 198.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 1bd06215-c70f-45fb-a7d7-fa114037b259)
-    )
-    (pin "W\\~{R}" input (at 342.9 205.74 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 7c61488f-d7b1-4086-b25c-014445c51a1b)
-    )
-    (pin "AD0" output (at 365.76 200.66 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid af590f90-73f5-4596-b8fb-c567cf8c7038)
     )
   )
 
@@ -5611,12 +5586,6 @@
     )
     (path "/00000000-0000-0000-0000-000062305776/b4a36e75-b869-4c47-b59c-ca31346a3bd7"
       (reference "#PWR019") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000062305776/c87d717f-47b5-4cbc-92c9-1f27489443fc"
-      (reference "#PWR020") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000062305776/99f40a50-ee35-472a-8a7f-9dca1993ec33"
-      (reference "#PWR021") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000056d758f6"
       (reference "#PWR022") (unit 1) (value "GND") (footprint "")
@@ -5726,9 +5695,6 @@
     (path "/00000000-0000-0000-0000-000062305776/8ac9015a-d982-42ad-ab7f-11cd1a812831"
       (reference "C17") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000062305776/68b9a284-29e4-4461-9b3a-9f4ef09e2dc9"
-      (reference "C18") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm")
-    )
     (path "/00000000-0000-0000-0000-000062305776/37cf12d2-9997-4855-9d67-d21913190832"
       (reference "C19") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm")
     )
@@ -5795,15 +5761,6 @@
     (path "/00000000-0000-0000-0000-000063ecdb04"
       (reference "U3") (unit 1) (value "80960Sx") (footprint "Package_LCC:PLCC-84_THT-Socket")
     )
-    (path "/00000000-0000-0000-0000-000062305776/9fb0fc0c-649f-4b6a-8681-4c1c3cff265d"
-      (reference "U6") (unit 1) (value "74AHC74") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-000062305776/05566c90-9ff9-4de8-a5f1-1d8176493d23"
-      (reference "U6") (unit 2) (value "74AHC74") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-000062305776/da30d552-383a-40ee-b502-3261b6b0380f"
-      (reference "U6") (unit 3) (value "74AHC74") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
-    )
     (path "/00000000-0000-0000-0000-000062305776/67f3f848-2b47-48d4-8ef6-b211a1c5ad8a"
       (reference "U7") (unit 1) (value "74AHC74") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
@@ -5811,7 +5768,7 @@
       (reference "U7") (unit 3) (value "74AHC74") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000062305776/312ed157-03e4-4f79-8162-ee244f6128f1"
-      (reference "U8") (unit 1) (value "GAL16V8") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
+      (reference "U8") (unit 1) (value "GAL16V8") (footprint "Package_LCC:PLCC-20_THT-Socket")
     )
     (path "/c11f357c-f8ce-40dd-a2b5-d959d6b2f47e"
       (reference "U?") (unit 1) (value "74AHC16373") (footprint "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm")
