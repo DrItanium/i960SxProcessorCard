@@ -1801,7 +1801,6 @@
     )
   )
 
-
   (junction (at 259.08 107.95) (diameter 0) (color 0 0 0 0)
     (uuid 03d0ff35-6acc-401f-b525-25faac830e07)
   )
@@ -2027,8 +2026,10 @@
 
   (no_connect (at 349.25 30.48) (uuid 2a5bb8d3-aee8-4dca-af4b-943990c7e2ed))
   (no_connect (at 398.78 39.37) (uuid 60e2310f-2a4b-4d7c-a146-90eb3857c72f))
+  (no_connect (at 398.78 41.91) (uuid 9bac3bd0-f795-45e2-bc7e-d2b3b5fba30b))
   (no_connect (at 341.63 39.37) (uuid 9c811382-674d-43d4-b504-7184ddfcf189))
   (no_connect (at 360.68 34.29) (uuid c5d04b03-a8b7-4684-9b69-fbd562c797e1))
+  (no_connect (at 398.78 29.21) (uuid f79d41bb-0320-47a0-8bb1-e0484f9baae2))
 
   (wire (pts (xy 381 46.99) (xy 398.78 46.99))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -4024,10 +4025,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b589ccaf-c257-4c74-aefb-7c23e244cfa0)
   )
-  (label "~{READY}" (at 398.78 41.91 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid b5ce8724-7e3e-47fd-8d5e-389b748807f3)
-  )
   (label "~{INT3}" (at 156.21 275.59 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b68a0bd6-026f-43a9-a225-952b91f538b8)
@@ -4167,10 +4164,6 @@
   (label "A3" (at 297.18 86.36 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d862850b-0f70-433b-a8d4-12ea97f84763)
-  )
-  (label "CLK_DIV2" (at 398.78 29.21 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid da2f11bc-bbd4-44c1-b813-e2e25a2257be)
   )
   (label "AD9" (at 63.5 100.33 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -5971,9 +5964,6 @@
     (path "/00000000-0000-0000-0000-000056d721e6"
       (reference "#PWR026") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062305776/7e6268bd-de28-4e45-b872-c2d5289de35e"
-      (reference "#PWR027") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000062305776/0e2482b9-a689-45a3-a536-674e09a602a2"
       (reference "#PWR028") (unit 1) (value "+5V") (footprint "")
     )
@@ -6132,9 +6122,6 @@
     )
     (path "/00000000-0000-0000-0000-00006243cf68"
       (reference "R4") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000062305776/c5053a4e-ffe0-455f-8838-52320f5821ec"
-      (reference "R5") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062305776/ba417558-e07a-4aa8-8f8c-15d6dc468305"
       (reference "R6") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
